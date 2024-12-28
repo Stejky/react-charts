@@ -42,7 +42,8 @@
     "start": "yarn watch",
     "format": "prettier {.,src,src/**,example/src,example/src/**,types}/*.{md,js,jsx,tsx,json} --write",
     "stats": "open ./stats.html",
-    "typedoc": "typedoc"
+    "typedoc": "typedoc",
+    "prepare": "npm run build"
   },
   "peerDependencies": {
     "react": ">=16",
